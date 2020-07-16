@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return SplashScreen(
-      seconds: 1,
+      seconds: 2,
       backgroundColor: Colors.black,
       image: Image.asset('assets/loading.gif'),
       loaderColor: Colors.white,
@@ -36,7 +36,7 @@ class MainScreen extends StatelessWidget {
         "Recycling is the process to converting waste materials into new materials and objects",
         style: TextStyle(fontSize: 18),
       ),
-      mainImage: Image.asset("assets/recycle.png", height: 285, width: 285),
+      mainImage: Image.asset("assets/rec.gif", height: 285, width: 285),
       titleTextStyle: TextStyle(fontFamily: "BreeSerif", color: Colors.white),
       bodyTextStyle: TextStyle(fontFamily: "BreeSerif", color: Colors.white),
     ),
