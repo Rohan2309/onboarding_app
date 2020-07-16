@@ -1,10 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:intro_views_flutter/intro_views_flutter.dart';
 import 'package:intro_views_flutter/Models/page_view_model.dart';
+import 'package:splashscreen/splashscreen.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp((new MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: new MyApp(),
+    )));
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  @override
+  Widget build(BuildContext context) {
+    return SplashScreen(
+      seconds: 5,
+      backgroundColor: Colors.black,
+      image: Image.asset('assets/loading.gif'),
+      loaderColor: Colors.white,
+      photoSize: 150.0,
+      navigateAfterSeconds: MainScreen(),
+    );
+  }
+}
+
+class MainScreen extends StatelessWidget {
   final pages = [
     PageViewModel(
       pageColor: const Color(0xFF8BC34A),
