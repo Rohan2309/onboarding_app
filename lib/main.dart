@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return SplashScreen(
-      seconds: 5,
+      seconds: 1,
       backgroundColor: Colors.black,
       image: Image.asset('assets/loading.gif'),
       loaderColor: Colors.white,

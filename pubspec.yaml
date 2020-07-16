@@ -19,7 +19,9 @@ flutter:
   assets:
     - assets/recycle.png
     - assets/reduce.png
+    - assets/reuse.png
     - assets/loading.gif
+    - assets/paper-shred3.gif
   fonts:
     - family: BreeSerif
       fonts:
