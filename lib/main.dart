@@ -76,7 +76,7 @@ class MainScreen extends StatelessWidget {
           showSkipButton: true,
           pageButtonTextStyles: TextStyle(
             color: Colors.white,
-            fontSize: 18.0,
+            fontSize: 19.0,
           ),
         ),
       ),
