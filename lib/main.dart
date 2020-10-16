@@ -34,7 +34,7 @@ class MainScreen extends StatelessWidget {
       title: Text("Recycle"),
       body: Text(
         "Recycling is the process to converting waste materials into new materials and objects",
-        style: TextStyle(fontSize: 18),
+        style: TextStyle(fontSize: 19),
       ),
       mainImage: Image.asset("assets/rec.gif", height: 285, width: 285),
       titleTextStyle: TextStyle(fontFamily: "BreeSerif", color: Colors.white),
@@ -45,7 +45,7 @@ class MainScreen extends StatelessWidget {
       title: Text("Reduce"),
       body: Text(
         "Reducing is about to understanding how to not produce trash.",
-        style: TextStyle(fontSize: 18),
+        style: TextStyle(fontSize: 19),
       ),
       mainImage: Image.asset("assets/reduce.png", height: 285, width: 285),
       titleTextStyle: TextStyle(fontFamily: "BreeSerif", color: Colors.white),
@@ -56,7 +56,7 @@ class MainScreen extends StatelessWidget {
       title: Text("Reuse"),
       body: Text(
         "Reuse is the action or practice of using an item, whether for its original purpose or to fulfill a different function.",
-        style: TextStyle(fontSize: 18),
+        style: TextStyle(fontSize: 19),
       ),
       mainImage: Image.asset("assets/reuse.png", height: 285, width: 285),
       titleTextStyle: TextStyle(fontFamily: "BreeSerif", color: Colors.white),
